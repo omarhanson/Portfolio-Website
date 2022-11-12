@@ -200,9 +200,12 @@ textarea{
 .hero{
   width: 100%;
   height: 100vh;
-  background-image: url('../images/background.jpg');
+  background-image: url('/images/IMG-20221027-WA0016.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center; 
+  background-attachment: fixed;
+  
+  
 }
 
 .hero__content{
@@ -391,8 +394,8 @@ textarea{
 }
 
 button{
-  background-color: blue;
-  color: white;
+  background-color:#caba00;
+  color: #fff;
   margin: 20px;
   padding: 5px;
   
