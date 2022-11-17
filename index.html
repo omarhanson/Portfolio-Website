@@ -283,32 +283,33 @@
           <div class="contact__form">
             <p>Let's chat and make something awesome!!!</p>
 
-            <form action="" class="form">
+            <form action="/mail.php" method="post" class="form">
               <input
-                type="text"
+                type="text" name="name"
                 class="form__input"
                 placeholder="Your Name"
                 required
               />
               <input
-                type="email"
+                type="email" name="email"
                 class="form__input"
                 placeholder="Your Email"
                 required
               />
               <input
-                type="number"
+                type="number" name="number"
                 class="form__input"
                 placeholder="Your Number"
                 required
               />
               <textarea
+              name="message"
                 cols="30"
                 rows="10"
                 placeholder="Project Details"
                 required
               ></textarea>
-              <input type="submit" class="form__btn btn" value="Send" />
+              <input  type="submit" class="form__btn btn" value="Send" />
             </form>
           </div>
         </div>
