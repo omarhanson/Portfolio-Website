@@ -364,7 +364,7 @@ textarea{
   font-weight: 500;
 }
 
-.form__input,
+ .form__input,
 .form textarea{
   width: 100%;
   padding: 1em;
@@ -375,7 +375,9 @@ textarea{
   font-size: var(--normal-font-size);
   background-color: #333333;
   color: var(--text-color);
-}
+}  
+
+
 
 .form__btn{
   display: block;
