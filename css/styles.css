@@ -86,17 +86,19 @@ textarea{
   border: none;
   padding: .5em 1em;
   border-radius: .4em;
-  outline: none;
+  outline: none; 
   cursor: pointer;
+  
 }
 
 .btn:hover{
   background-color: #caba00;
 }
 
-.social-media{
+ .social-media{
   display: flex;
-}
+  
+} 
 
 .social-media a{
   font-size: var(--big-font-size);
@@ -393,12 +395,4 @@ textarea{
 .footer p{
   font-size: var(--small-font-size);
   text-align: center;
-}
-
-button{
-  background-color:#caba00;
-  color: #fff;
-  margin: 20px;
-  padding: 5px;
-  
 }

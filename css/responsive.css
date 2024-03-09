@@ -35,9 +35,9 @@
     height: 100%;
     margin-top: 0;
     padding-top: 0;
-
     flex-direction: row;
     transition: none;
+    
   }
 
   .nav__link{
@@ -45,7 +45,9 @@
     margin-bottom: 0;
     padding-bottom: 2px;
     position: relative;
+    
   }
+
 
   .nav__link::after{
     content: '';
@@ -61,6 +63,7 @@
 
   .nav__link:hover::after{
     width: 100%;
+    
   }
 
   .nav__link a{
@@ -92,7 +95,7 @@
 
   .social-media--hero{
     flex-direction: row;
-    gap: 2em;
+    gap: 2em; 
   }
 
   .proyects__cards{
