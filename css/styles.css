@@ -195,7 +195,7 @@ textarea{
   font-size: var(--middle-font-size);
   font-weight: 500;
   /* color: var(--second-text-color); */
-  color: var(--main-color);
+  color: var(--bg-color);
   text-decoration: underline;
 }
 
