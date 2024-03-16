@@ -37,8 +37,15 @@
     padding-top: 0;
     flex-direction: row;
     transition: none;
-    
   }
+
+  .heading > span{
+   
+    
+    
+   }
+
+
 
   .nav__link{
     margin-left: 2em;
