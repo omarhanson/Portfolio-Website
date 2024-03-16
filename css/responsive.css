@@ -30,7 +30,7 @@
 
   .nav__links{
     position: static;
-    background-color: transparent;
+    background-color: transparent; 
     width: auto;
     height: 100%;
     margin-top: 0;
@@ -39,11 +39,6 @@
     transition: none;
   }
 
-  .heading > span{
-   
-    
-    
-   }
 
 
 
@@ -74,7 +69,7 @@
   }
 
   .nav__link a{
-    color: var(--text-color);
+    color: var(--text-color); 
     font-weight: normal;
     text-decoration: none;
   }
