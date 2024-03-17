@@ -20,6 +20,10 @@
   .contact__content{
     flex-direction: row;
   }
+
+ 
+
+
 }
 
 @media (min-width: 960px){
@@ -27,6 +31,8 @@
   .nav__icon-menu{
     display: none;
   }
+
+  
 
   .nav__links{
     position: static;
@@ -79,9 +85,22 @@
   :root{
     --title-font-size: 3rem;
   }
+
+   .heading > span{
+  
+     font-size: var(--medium-font-size);  
+    
+   } 
 }
 
 @media (min-width: 1200px){
+
+ 
+  .heading > span{
+  
+    font-size: var(--big-font-size);  
+   
+  }
 
   .nav__logo{
     font-size: 1.875rem;
