@@ -95,7 +95,7 @@ textarea{
 
 .btn:hover{
   background-color: #000;
-  color: #50ff00;
+  color: #50ff00; 
 }
 
  .social-media{
@@ -174,16 +174,12 @@ textarea{
   left: 0;
   background-color: rgba(255,255,255, .8); 
   backdrop-filter: blur(5px);
-  
-
   width: 100%;
   height: 100vh;
   padding-top: 4em;
-
   display: flex;
   flex-direction: column;
   align-items: center;
-
   transition: .8s ease;
 }
 
@@ -230,9 +226,14 @@ textarea{
   font-size: var(--middle-font-size);
 }
 
+.sub_hero_title{
+  text-shadow: 4px 4px 4px #000000;
+}
+
 .hero__title{
   font-size: var(--title-font-size);
   margin: .2em 0 .5em;
+   text-shadow: 4px 4px 4px #000000; 
 }
 
 .hero__title span{
