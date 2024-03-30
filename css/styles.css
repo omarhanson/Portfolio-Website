@@ -387,7 +387,7 @@ textarea{
   .block {
    background-color: #fff; 
    display: block;
-   
+   width: 100%;
   
   
    
@@ -406,7 +406,7 @@ textarea{
   .container2{
      position: relative;  
      width: auto;  
-    padding: 20px;  
+    /* padding: 20px;   */
     display: flex;  
     justify-content: center;
     align-items: center; 
