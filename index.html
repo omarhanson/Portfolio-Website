@@ -130,7 +130,7 @@
             <li class="nav__link"><a href="#services">Services</a></li>
             <li class="nav__link"><a href="#about">About me</a></li>
             <li class="nav__link"><a href="#proyects">Projects</a></li>
-            <!-- <li class="nav__link"><a href="#">Pricing</a></li> -->
+            <li class="nav__link"><a href="#testimonials">Testimonials</a></li>
             <li class="nav__link"><a href="#contact">Contact me</a></li>
           </ul>
 
@@ -143,8 +143,7 @@
       <section class="hero" id="hero">
         <div class="hero__content container">
           <h3 class="sub_hero_title">Welcome!👋 I'm Omar.</h3>
-          <h1 class="hero__title">A Freelance<span>Web Developer</span></h1>
-          
+          <h1 class="hero__title">A Freelance <span>Web Developer</span></h1>
 
           <a href="#proyects" class="hero__btn btn bold">My Portfolio</a>
         </div>
@@ -208,7 +207,7 @@
           <h3>My Journey:</h3>
 
           <p>
-            My journey into the world of web development began in 2022, and it's
+            My journey into the world of web development began in 2020, and it's
             been an exhilarating ride ever since. From humble beginnings
             tinkering with HTML and CSS to mastering the intricacies of
             JavaScript frameworks and server-side languages, every step of my
@@ -227,9 +226,8 @@
             elegant and intuitive user interfaces, architecting robust back-end
             systems, or optimizing performance for maximum scalability, I have
             the skills and experience to tackle any challenge that comes my way.
-            From small businesses to Fortune 500 companies, I've had the
-            pleasure of helping clients from all walks of life achieve their
-            online goals.
+            From small to large size businesses, I've had the pleasure of
+            helping clients from all walks of life achieve their online goals.
           </p>
           <br />
 
@@ -408,9 +406,63 @@
         </div>
       </section>
 
-      <!-- PRICING -->
+      <!-- TESTIMONIAL -->
 
-     
+      <section class="block" id="testimonials">
+        <br />
+
+        <div class="test"><h3>Testimonials</h3></div>
+
+        <div class="cards">
+          <div class="container2">
+            <div class="card">
+              <div class="circle">
+                <img src="/images/lady.jpg" />
+              </div>
+              <div class="content">
+                <p>
+                  "The web development service I received from Websplash
+                  Creators was exceptional, combining innovative design
+                  elements, seamless functionality, and responsive customer
+                  support to create a dynamic website that perfectly aligns with
+                  my vision and business goals."
+                </p>
+
+                <!-- <a href="">READ MORE</a> -->
+              </div>
+            </div>
+            <div class="card">
+              <div class="circle">
+                <img src="/images/male.png" />
+              </div>
+              <div class="content">
+                <p>
+                  "The web development service I received was outstanding, with
+                  the team demonstrating a deep understanding of my requirements
+                  and delivering a highly functional and visually appealing
+                  website that exceeded my expectations."
+                </p>
+                <!-- <a href="">READ MORE</a> -->
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="circle">
+                <img src="/images/lady2.jpg" />
+              </div>
+              <div class="content">
+                <p>
+                  "The web development service I received was comprehensive,
+                  encompassing design, coding, and testing phases, resulting in
+                  a polished website that perfectly reflects my brand identity
+                  and meets all functional requirements."
+                </p>
+                <!-- <a href="">READ MORE</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- CONTACT -->
       <section class="contact" id="contact">
@@ -437,7 +489,20 @@
                 <a href="#"> <i class="fa-brands fa-facebook"></i></a>
               </div>
             </div>
+
+           
+            <div class="video_info">
+              
+              <video
+              class="full"
+              controls
+              src="/video/Why is a Website Important for your Business.mp4"
+            ></video>
+  
+            </div>
+
           </div>
+
 
           <div class="contact__form">
             <p>
@@ -483,12 +548,15 @@
                 required
               />
 
+              <input type="file" id="uploadbtn">
+              <label for="uploadbtn"><i class="fa-solid fa-upload"></i>
+                Upload File</label>
+
               <textarea
                 name="message"
                 cols="30"
                 rows="10"
                 placeholder="Project Details:"
-                
               ></textarea>
 
               <input type="submit" class="form__btn btn bold" value="Send" />

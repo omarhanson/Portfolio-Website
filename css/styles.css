@@ -208,6 +208,7 @@ textarea{
   background-size: cover;
   background-position: center; 
   background-attachment: fixed;
+  /* background-position: bottom; */
   
   
 }
@@ -228,10 +229,12 @@ textarea{
 
 .sub_hero_title{
   text-shadow: 4px 4px 4px #000000;
+  font-size: 3vmin; 
 }
 
 .hero__title{
-  font-size: var(--title-font-size);
+  /* font-size: var(--title-font-size);   */
+  font-size: 7vmin;  
   margin: .2em 0 .5em;
    text-shadow: 4px 4px 4px #000000; 
 }
@@ -243,6 +246,10 @@ textarea{
 .hero__content p{
   max-width: 80%;
   margin-bottom: 2em;
+}
+
+.hero__btn:active{
+    transform: scale(0.9);
 }
 .shadow {
   /* text-shadow:  black 10px -5px 2px; */
@@ -302,7 +309,11 @@ textarea{
   margin-bottom: 1.5em;
 }
 
-/* ------------- PROYECTS ------------- */
+.about__btn:active{
+  transform: scale(0.9);
+}
+
+/* ------------- PROJECTS ------------- */
 .proyects{
   background-color: var(--second-bg-color);
 }
@@ -310,7 +321,7 @@ textarea{
 .proyects__cards{
   margin: 1em 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
   align-items: center;
   gap: 1em;
 }
@@ -354,6 +365,138 @@ textarea{
 }
 
 
+
+
+/* TESTIMONIALS */
+
+.test{
+  
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: var(--bg-color);
+  text-underline-position: below;
+  display: block;
+  text-decoration: underline #50ff00 4px;
+  font-size: var(--big-font-size);
+  
+  
+  
+  }
+  
+  .block {
+   background-color: #fff; 
+   display: block;
+   
+  
+  
+   
+  }
+  
+  .cards{
+     display: flex; 
+    justify-content: center; 
+    align-items: center;     
+    min-height: 80vh;
+    background:   #fff;
+     background-attachment: fixed; 
+     
+  } 
+  
+  .container2{
+     position: relative;  
+     width: auto;  
+    padding: 20px;  
+    display: flex;  
+    justify-content: center;
+    align-items: center; 
+     flex-wrap: wrap;  
+  }
+  img{
+      width: 100%;
+       
+  }
+   
+  .container2 .card{
+    position: relative;
+    width: 300px;
+    height: 420px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,.2);
+    background-color: #fff;
+    margin: 20px;  
+    overflow: hidden;
+    transition: .5s;
+    
+    
+  }
+   
+  .container2:hover .card{
+    filter: blur(20px);
+    transform: scale(0.9);
+    opacity: 0.5;
+  } 
+   
+  .container2 .card:hover{
+    filter: blur(0);
+    transform: scale(1.1);
+    opacity: 1;
+  } 
+   
+  .container2 .card .circle{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    clip-path: circle(180px at center 0);
+    text-align: center;
+  }
+   
+   
+  .container2 .card .content{
+    position: absolute;
+    bottom: 10px;
+    page-break-after: 20px;
+    text-align: center;
+    padding: 20px;
+  }
+   
+  .container2 .card .content p{
+    color: #666;
+    text-align: center;
+    font-size: 15px;
+  
+  }
+   
+  .container2 .card .content a{
+    position: relative;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin-top: 20px;
+    text-decoration: none;
+     
+  }
+   
+  .container2 .card:nth-child(1) .circle,
+  .container2 .card:nth-child(1) .content a{
+    background-color: #111024;
+  }
+   
+  .container2 .card:nth-child(2) .circle,
+  .container2 .card:nth-child(2) .content a{
+    background-color: #111024;
+  }
+   
+  .container2 .card:nth-child(3) .circle,
+  .container2 .card:nth-child(3) .content a{
+    background-color: #111024;
+  }
+  
+  
+  
 /* ------------- CONTACT -------------- */
 .contact__content{
   display: flex;
@@ -400,6 +543,50 @@ textarea{
   margin: 0 auto;
   font-size: var(--middle-font-size);
 }
+
+.form__btn:active{
+    transform: scale(0.9);
+  
+}
+  
+input[type="file"]{
+display: none; 
+}
+
+label{
+color: #fff;
+text-transform: uppercase;
+background: #c0392b;
+text-align: left;
+padding: 10px 10px;
+display: inline-block;
+font-size: 2vmin;
+font-weight: bold;
+letter-spacing: 1.5px;
+user-select: none;
+cursor: pointer;
+margin-bottom: 3%;
+box-shadow: 5px 15px 25px rgba(0,0,0,35);
+border-radius: 3px;
+}
+
+label i{
+  margin-right: 10px;
+}
+
+label:active{
+  transform: scale(0.9);
+}
+
+/* VIDEO */
+
+.video_info video {
+  width: 100%;
+  height: 400px;
+  
+}
+
+
 
 /* ------------- FOOTER ---------------- */
 .footer{
@@ -482,12 +669,5 @@ text-shadow: none;
  div .small {
   width: 50%;
  }
-
-
-
-
-
-
-
 
 

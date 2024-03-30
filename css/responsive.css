@@ -21,10 +21,14 @@
     flex-direction: row;
   }
 
- 
+.cards{
+  flex-direction: row;
+}
+
 
 
 }
+
 
 @media (min-width: 960px){
   /* NAV */
@@ -32,7 +36,9 @@
     display: none;
   }
 
+
   
+
 
   .nav__links{
     position: static;
@@ -91,6 +97,10 @@
      font-size: var(--medium-font-size);  
     
    } 
+
+
+
+
 }
 
 @media (min-width: 1200px){
@@ -122,4 +132,6 @@
   .proyects__cards{
     grid-template-columns: repeat(3, 1fr);
   }
+
+ 
 }
