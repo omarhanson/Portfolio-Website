@@ -229,12 +229,12 @@ textarea{
 
 .sub_hero_title{
   text-shadow: 4px 4px 4px #000000;
-  font-size: 3vmin; 
+  /* font-size: 3vmin;  */
 }
 
 .hero__title{
-  /* font-size: var(--title-font-size);   */
-  font-size: 7vmin;  
+  font-size: var(--title-font-size);   
+  /* font-size: 7vmin;   */
   margin: .2em 0 .5em;
    text-shadow: 4px 4px 4px #000000; 
 }
@@ -549,9 +549,9 @@ textarea{
   
 }
   
-input[type="file"]{
+/* input[type="file"]{
 display: none; 
-} 
+}  */
 
 label{
 color: #fff;
