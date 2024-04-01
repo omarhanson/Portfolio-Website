@@ -114,7 +114,10 @@ textarea{
 
 .section__content{
   text-align: center;
+ 
 }
+
+
 
 .section__title{
   display: inline-block;
@@ -296,6 +299,7 @@ textarea{
 .about__text{
   text-align: center;
   margin-bottom: 1.5em;
+ 
 }
 
 .about__btn:active{
@@ -312,6 +316,7 @@ textarea{
 
  #ch:checked ~ .content3{
   display: block;
+ 
  }
 
 
@@ -564,7 +569,8 @@ background: #c0392b;
 text-align: left;
 padding: 10px 10px;
 display: inline-block; 
-font-size: 2vmin;
+/* font-size: 2vmin; */
+font-size: 10px;
 font-weight: bold;
 letter-spacing: 1.5px;
 user-select: none;
