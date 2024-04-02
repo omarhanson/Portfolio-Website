@@ -590,11 +590,14 @@ label:active{
 
 .video_info video {
   width: 100%;
-  height: 400px;
+  
   
 }
 
 
+.hi{
+  text-align: center;
+}
 
 /* ------------- FOOTER ---------------- */
 .footer{
